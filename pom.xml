@@ -11,9 +11,13 @@
 	<groupId>com.ibetar</groupId>
 	<artifactId>notification-ms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>notification-ms</name>
+    <packaging>pom</packaging>
+    <name>notification-ms</name>
 	<description>Notification service using the producer/consumer communication model demo</description>
-	<properties>
+    <modules>
+		<module>kyc-service</module>
+	</modules>
+    <properties>
 		<java.version>22</java.version>
 	</properties>
 	<dependencies>
